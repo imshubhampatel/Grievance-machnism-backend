@@ -14,7 +14,7 @@ function sendMail(email, subject, desc) {
 		});
 
 		let mailOptions = {
-			from: `Team Join Btirt 🎫 <shubhampatel2024@gmail.com>`,
+			from: `Team Grievance BTIRT 🎫 <shubhampatel2024@gmail.com>`,
 			to: email,
 			subject: subject,
 			html: desc,
