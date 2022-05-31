@@ -36,8 +36,8 @@ async function addGrievance(req, res) {
             <p>${grievance}</p>
              `;
     const mailResponse = await sendMail(
-      // "principalbtirtsagar@gmail.com",
-      "shubhampatel@appslure.com",
+      "principalbtirtsagar@gmail.com",
+      // "shubhampatel@appslure.com",
       subject || "Grievance Support",
       `<div
       style="
