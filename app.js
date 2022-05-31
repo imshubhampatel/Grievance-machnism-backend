@@ -23,7 +23,7 @@ app.use("/user", routes);
 //@desc : Testing Route
 //@access : Public
 app.use("/", (request, response) => {
-  response.status(200).send("I am alive!");
+  response.status(200).send("Hey Shubham, I am alive!");
 });
 
 //LISTENING ON PORT

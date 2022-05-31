@@ -36,6 +36,7 @@ async function addGrievance(req, res) {
             <p>${grievance}</p>
              `;
     const mailResponse = await sendMail(
+      // "principalbtirtsagar@gmail.com",
       "shubhampatel@appslure.com",
       subject || "Grievance Support",
       `<div
@@ -49,7 +50,7 @@ async function addGrievance(req, res) {
       <div style="margin: 50px auto; width: 70%; padding: 20px 0">
         <div style="border-bottom: 1px solid #eee">
           <a
-            href=""
+            href="https://www.btirt.ac.in"
             style="
               font-size: 1.4em;
               color: #e52b50;
@@ -82,8 +83,8 @@ async function addGrievance(req, res) {
           ${desc}
         </h2>
         <p>
-        Waiting for your kind response, Thank you      </p>
-        <p style="font-size: 0.9em">Regards,<br />Btirt Grievance Portal</p>
+        Waiting for your kind response, Thank you</p>
+        <p style="font-size: 0.9em">Regards<br /></p>
         <hr style="border: none; border-top: 1px solid #eee" />
         <div
           style="
@@ -95,9 +96,9 @@ async function addGrievance(req, res) {
             font-weight: 300;
           "
         >
-          <p>Your BTRIT Inc</p>
-          <p> Sironja, Sagar</p>
-          <p>Madhya Pradesh, India</p>
+          <p Principal BTIRT </p>
+          <p> Sironja, Sagar </p>
+          <p> Madhya Pradesh, India </p>
         </div>
       </div>
     </div>
@@ -117,8 +118,8 @@ async function addGrievance(req, res) {
       <div style="margin: 50px auto; width: 70%; padding: 20px 0">
         <div style="border-bottom: 1px solid #eee">
           <a
-            href=""
-            style="
+          href="https://www.btirt.ac.in"
+          style="
               font-size: 1.4em;
               color: #e52b50;
               text-decoration: none;
@@ -142,9 +143,10 @@ async function addGrievance(req, res) {
           ${desc}
         </h2>
         <p>
-        Thank you for using  BTIRT Grievance Portal. We will respond you soon.
+        Thank you for using  BTIRT GRIEVANCE REDRESSAL MANAGEMENT PORTAL
+        . We will respond you soon.
       </p>
-        <p style="font-size: 0.9em">Regards,<br />Btirt Grievance Portal</p>
+        <p style="font-size: 0.9em">Regards,<br /></p>
         <hr style="border: none; border-top: 1px solid #eee" />
         <div
           style="
@@ -156,7 +158,7 @@ async function addGrievance(req, res) {
             font-weight: 300;
           "
         >
-          <p>Your BTRIT Inc</p>
+          <p>Principal BTIRT</p>
           <p> Sironja, Sagar</p>
           <p>Madhya Pradesh, India</p>
         </div>
