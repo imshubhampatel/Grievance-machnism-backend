@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 8000;
 
 //Configuring Express
 const app = express();
-app.use(cors({ origin: "http://localhost:3000" }));
+app.use(cors({ origin: "*" }));
 app.use(express.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
@@ -23,7 +23,7 @@ app.use("/user", routes);
 //@desc : Testing Route
 //@access : Public
 app.use("/", (request, response) => {
-  response.status(200).send("Hey Shubham, I am alive!");
+  response.status(200).send("Hey Backend :D, I am alive!");
 });
 
 //LISTENING ON PORT
