@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 8000;
 
 //Configuring Express
 const app = express();
-app.use(cors({ origin: "*" }));
+app.use(cors({ origin: "http://localhost:3000" }));
 app.use(express.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
