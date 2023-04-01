@@ -15,7 +15,6 @@ app.use(
   cors({
     credentials: true,
     origin: ["https://btirthorizon.in", "http://localhost:3000"],
-    "Access-Control-Allow-Origin": true,
     "Access-Control-Allow-Methods": "PUT,GET,POST,DELETE,PATCH",
   })
 );
