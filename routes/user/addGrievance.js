@@ -25,6 +25,7 @@ async function addGrievance(req, res) {
 
     let uniqueCode = Date.now().toString(36);
     console.log({ uniqueCode });
+    uniqueCode = `bt-tchfst2k23-${uniqueCode}`;
 
     const newGrievance = await User.create({
       firstName,
