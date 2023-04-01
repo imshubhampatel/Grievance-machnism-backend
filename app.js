@@ -10,10 +10,8 @@ const PORT = process.env.PORT || 8000;
 
 //Configuring Express
 const app = express();
-cors, {};
 app.use(
   cors({
-    credentials: true,
     origin: ["https://btirthorizon.in", "http://localhost:3000"],
     "Access-Control-Allow-Methods": "PUT,GET,POST,DELETE,PATCH",
   })
