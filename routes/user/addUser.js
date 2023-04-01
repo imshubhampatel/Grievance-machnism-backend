@@ -1,6 +1,6 @@
 const User = require("../../schemas/user.model");
 const { sendMail } = require("../../services/nodemailer/sendMail");
-async function addGrievance(req, res) {
+async function addUser(req, res) {
   console.log(req.body);
   try {
     const {
@@ -53,4 +53,4 @@ async function addGrievance(req, res) {
     });
   }
 }
-exports.addGrievance = addGrievance;
+exports.addUser = addUser;

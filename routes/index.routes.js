@@ -1,5 +1,5 @@
 const { Router } = require("express");
-const { addGrievance } = require("./user/addGrievance");
+const { addUser } = require("./user/addUser.js");
 const { getGrievance } = require("./admin/getGrievance");
 const { updateStatus } = require("./admin/updateStatus");
 const {
@@ -10,7 +10,7 @@ const {
 const routes = Router();
 
 // User Controllers
-routes.post("/addGrievance", addGrievance);
+routes.post("/add-user", addUser);
 routes.get("/getGrievance", getGrievance);
 routes.post("/updateStatus", updateStatus);
 routes.post("/razorpay/initiate-transaction", initiateTransaction);

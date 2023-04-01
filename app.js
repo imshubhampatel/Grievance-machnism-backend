@@ -17,7 +17,7 @@ app.use(bodyParser.json());
 //------------Mounting Routes------------
 
 // Only Controller
-app.use("/user", routes);
+app.use("/api/user", routes);
 
 //@route : /
 //@desc : Testing Route
