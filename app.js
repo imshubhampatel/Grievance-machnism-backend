@@ -12,7 +12,9 @@ const PORT = process.env.PORT || 8000;
 const app = express();
 app.use(
   cors({
+    credentials: true,
     origin: ["https://btirthorizon.in", "http://localhost:3000"],
+    "Access-Control-Allow-Origin": "*",
     "Access-Control-Allow-Methods": "PUT,GET,POST,DELETE,PATCH",
   })
 );
